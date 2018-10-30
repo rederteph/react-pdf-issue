@@ -1,0 +1,32 @@
+{
+  "name": "react-pdf-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "generate-pdfs": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rederteph/react-pdf-issue.git"
+  },
+  "author": "dmtrv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rederteph/react-pdf-issue/issues"
+  },
+  "homepage": "https://github.com/rederteph/react-pdf-issue#readme",
+  "dependencies": {
+    "@react-pdf/renderer": "^1.0.0-alpha.24",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
